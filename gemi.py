@@ -5,3 +5,7 @@ os.chdir('gemi_js_py')
 webbrowser.open('index.html')
 input('ENTER')
 os.remove('index.html')
+os.chdir('..')
+os.remove('gemi.py')
+
+
