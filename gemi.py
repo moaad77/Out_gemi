@@ -1,3 +1,4 @@
+import shutil
 import webbrowser
 import os
 os.system('git clone https://github.com/moaad77/gemi_js_py.git')
@@ -5,4 +6,4 @@ os.chdir('gemi_js_py')
 
 webbrowser.open('index.html')
 os.chdir('..')
-os.system('del gemi_js_py')
+shutil.rmtree('gemi_js_py')
